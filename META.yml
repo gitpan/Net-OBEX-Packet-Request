@@ -1,6 +1,6 @@
 ---
 name: Net-OBEX-Packet-Request
-version: 0.001
+version: 0.002
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
 abstract: create OBEX protocol request packets.
@@ -14,6 +14,27 @@ build_requires:
 provides:
   Net::OBEX::Packet::Request:
     file: lib/Net/OBEX/Packet/Request.pm
+    version: 0.002
+  Net::OBEX::Packet::Request::Abort:
+    file: lib/Net/OBEX/Packet/Request/Abort.pm
+    version: 0.001
+  Net::OBEX::Packet::Request::Base:
+    file: lib/Net/OBEX/Packet/Request/Base.pm
+    version: 0.001
+  Net::OBEX::Packet::Request::Connect:
+    file: lib/Net/OBEX/Packet/Request/Connect.pm
+    version: 0.001
+  Net::OBEX::Packet::Request::Disconnect:
+    file: lib/Net/OBEX/Packet/Request/Disconnect.pm
+    version: 0.001
+  Net::OBEX::Packet::Request::Get:
+    file: lib/Net/OBEX/Packet/Request/Get.pm
+    version: 0.001
+  Net::OBEX::Packet::Request::Put:
+    file: lib/Net/OBEX/Packet/Request/Put.pm
+    version: 0.001
+  Net::OBEX::Packet::Request::SetPath:
+    file: lib/Net/OBEX/Packet/Request/SetPath.pm
     version: 0.001
 generated_by: Module::Build version 0.2808
 meta-spec:
