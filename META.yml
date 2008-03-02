@@ -1,0 +1,21 @@
+---
+name: Net-OBEX-Packet-Request
+version: 0.001
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: create OBEX protocol request packets.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp: 1.04
+build_requires:
+  Test::More: 0
+provides:
+  Net::OBEX::Packet::Request:
+    file: lib/Net/OBEX/Packet/Request.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
