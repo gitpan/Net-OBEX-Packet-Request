@@ -9,6 +9,7 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Net/OBEX/Packet/Request.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
+                           'Class::Data::Accessor' => '0.04001',
                            'Carp' => '1.04'
                          }
         )

@@ -1,6 +1,6 @@
 ---
 name: Net-OBEX-Packet-Request
-version: 0.002
+version: 0.003
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
 abstract: create OBEX protocol request packets.
@@ -9,12 +9,13 @@ resources:
   license: http://dev.perl.org/licenses/
 requires:
   Carp: 1.04
+  Class::Data::Accessor: 0.04001
 build_requires:
   Test::More: 0
 provides:
   Net::OBEX::Packet::Request:
     file: lib/Net/OBEX/Packet/Request.pm
-    version: 0.002
+    version: 0.003
   Net::OBEX::Packet::Request::Abort:
     file: lib/Net/OBEX/Packet/Request/Abort.pm
     version: 0.001
