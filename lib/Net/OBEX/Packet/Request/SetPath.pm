@@ -5,7 +5,7 @@ use warnings;
 
 use Carp;
 use base 'Net::OBEX::Packet::Request::Base';
-our $VERSION = '0.001';
+our $VERSION = '0.004';
 
 sub new {
     my $class = shift;

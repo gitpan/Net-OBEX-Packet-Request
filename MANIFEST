@@ -17,3 +17,4 @@ lib/Net/OBEX/Packet/Request/SetPath.pm
 examples/packet_maker.pl
 Makefile.PL
 META.yml
+META.json

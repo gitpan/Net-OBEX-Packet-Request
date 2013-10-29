@@ -4,7 +4,7 @@ package Net::OBEX::Packet::Request::Connect;
 use strict;
 use warnings;
 
-our $VERSION = '0.001';
+our $VERSION = '0.004';
 
 use Carp;
 use base qw(Class::Data::Accessor Net::OBEX::Packet::Request::Base);

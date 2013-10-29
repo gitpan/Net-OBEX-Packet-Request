@@ -1,0 +1,76 @@
+{
+   "abstract" : "create OBEX protocol request packets.",
+   "author" : [
+      "Zoffix Znet <zoffix@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Net-OBEX-Packet-Request",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.4"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "1.04",
+            "Class::Data::Accessor" : "0.04001",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "provides" : {
+      "Net::OBEX::Packet::Request" : {
+         "file" : "lib/Net/OBEX/Packet/Request.pm",
+         "version" : "0.004"
+      },
+      "Net::OBEX::Packet::Request::Abort" : {
+         "file" : "lib/Net/OBEX/Packet/Request/Abort.pm",
+         "version" : "0.004"
+      },
+      "Net::OBEX::Packet::Request::Base" : {
+         "file" : "lib/Net/OBEX/Packet/Request/Base.pm",
+         "version" : "0.004"
+      },
+      "Net::OBEX::Packet::Request::Connect" : {
+         "file" : "lib/Net/OBEX/Packet/Request/Connect.pm",
+         "version" : "0.004"
+      },
+      "Net::OBEX::Packet::Request::Disconnect" : {
+         "file" : "lib/Net/OBEX/Packet/Request/Disconnect.pm",
+         "version" : "0.004"
+      },
+      "Net::OBEX::Packet::Request::Get" : {
+         "file" : "lib/Net/OBEX/Packet/Request/Get.pm",
+         "version" : "0.004"
+      },
+      "Net::OBEX::Packet::Request::Put" : {
+         "file" : "lib/Net/OBEX/Packet/Request/Put.pm",
+         "version" : "0.004"
+      },
+      "Net::OBEX::Packet::Request::SetPath" : {
+         "file" : "lib/Net/OBEX/Packet/Request/SetPath.pm",
+         "version" : "0.004"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.004"
+}

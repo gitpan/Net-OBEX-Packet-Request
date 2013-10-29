@@ -1,43 +1,47 @@
 ---
-name: Net-OBEX-Packet-Request
-version: 0.003
+abstract: 'create OBEX protocol request packets.'
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
-abstract: create OBEX protocol request packets.
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  Carp: 1.04
-  Class::Data::Accessor: 0.04001
 build_requires:
   Test::More: 0
+configure_requires:
+  Module::Build: 0.4
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-OBEX-Packet-Request
 provides:
   Net::OBEX::Packet::Request:
     file: lib/Net/OBEX/Packet/Request.pm
-    version: 0.003
+    version: 0.004
   Net::OBEX::Packet::Request::Abort:
     file: lib/Net/OBEX/Packet/Request/Abort.pm
-    version: 0.001
+    version: 0.004
   Net::OBEX::Packet::Request::Base:
     file: lib/Net/OBEX/Packet/Request/Base.pm
-    version: 0.001
+    version: 0.004
   Net::OBEX::Packet::Request::Connect:
     file: lib/Net/OBEX/Packet/Request/Connect.pm
-    version: 0.001
+    version: 0.004
   Net::OBEX::Packet::Request::Disconnect:
     file: lib/Net/OBEX/Packet/Request/Disconnect.pm
-    version: 0.001
+    version: 0.004
   Net::OBEX::Packet::Request::Get:
     file: lib/Net/OBEX/Packet/Request/Get.pm
-    version: 0.001
+    version: 0.004
   Net::OBEX::Packet::Request::Put:
     file: lib/Net/OBEX/Packet/Request/Put.pm
-    version: 0.001
+    version: 0.004
   Net::OBEX::Packet::Request::SetPath:
     file: lib/Net/OBEX/Packet/Request/SetPath.pm
-    version: 0.001
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    version: 0.004
+requires:
+  Carp: 1.04
+  Class::Data::Accessor: 0.04001
+  perl: 5.006
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.004

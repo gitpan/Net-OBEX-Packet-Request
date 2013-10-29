@@ -13,7 +13,9 @@ my $builder = Module::Build->new(
     requires => {
         Carp    => '1.04',
         'Class::Data::Accessor' => '0.04001',
+        perl    => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0.40 },
     add_to_cleanup      => [ 'Net-OBEX-Packet-Request-*' ],
     create_makefile_pl => 'traditional',
 );

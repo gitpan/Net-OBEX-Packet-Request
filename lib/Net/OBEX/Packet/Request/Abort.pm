@@ -2,7 +2,7 @@ package Net::OBEX::Packet::Request::Abort;
 
 use strict;
 use warnings;
-our $VERSION = '0.001';
+our $VERSION = '0.004';
 use Carp;
 
 use base 'Net::OBEX::Packet::Request::Base';
